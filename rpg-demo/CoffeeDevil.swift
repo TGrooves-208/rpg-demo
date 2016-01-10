@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class CoffeeDevil: Enemy {
+    
+    override var loot: [String] {
+        return ["Jittery Joe's Coffee", "Frothed Creamer", "Sugar", "Biscotti"]
+    }
+    
+    override var type: String {
+        return "CoffeeDevil"
+    }
+}

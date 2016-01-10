@@ -12,6 +12,11 @@
 		1B21A5F11C429D77008AD566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B21A5EF1C429D77008AD566 /* Main.storyboard */; };
 		1B21A5F31C429D77008AD566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B21A5F21C429D77008AD566 /* Assets.xcassets */; };
 		1B21A5F61C429D77008AD566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B21A5F41C429D77008AD566 /* LaunchScreen.storyboard */; };
+		1B21A5FE1C429EA0008AD566 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21A5FD1C429EA0008AD566 /* Character.swift */; };
+		1B21A6001C42A429008AD566 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21A5FF1C42A429008AD566 /* Player.swift */; };
+		1B21A6021C42A69E008AD566 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21A6011C42A69E008AD566 /* Enemy.swift */; };
+		1B21A6041C42A9D5008AD566 /* Grouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21A6031C42A9D5008AD566 /* Grouch.swift */; };
+		1B21A6061C42AB57008AD566 /* CoffeeDevil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21A6051C42AB57008AD566 /* CoffeeDevil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		1B21A5F21C429D77008AD566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B21A5F51C429D77008AD566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B21A5F71C429D77008AD566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B21A5FD1C429EA0008AD566 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		1B21A5FF1C42A429008AD566 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1B21A6011C42A69E008AD566 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		1B21A6031C42A9D5008AD566 /* Grouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grouch.swift; sourceTree = "<group>"; };
+		1B21A6051C42AB57008AD566 /* CoffeeDevil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeDevil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				1B21A5F21C429D77008AD566 /* Assets.xcassets */,
 				1B21A5F41C429D77008AD566 /* LaunchScreen.storyboard */,
 				1B21A5F71C429D77008AD566 /* Info.plist */,
+				1B21A5FD1C429EA0008AD566 /* Character.swift */,
+				1B21A5FF1C42A429008AD566 /* Player.swift */,
+				1B21A6011C42A69E008AD566 /* Enemy.swift */,
+				1B21A6031C42A9D5008AD566 /* Grouch.swift */,
+				1B21A6051C42AB57008AD566 /* CoffeeDevil.swift */,
 			);
 			path = "rpg-demo";
 			sourceTree = "<group>";
@@ -135,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B21A6001C42A429008AD566 /* Player.swift in Sources */,
+				1B21A6021C42A69E008AD566 /* Enemy.swift in Sources */,
+				1B21A5FE1C429EA0008AD566 /* Character.swift in Sources */,
+				1B21A6061C42AB57008AD566 /* CoffeeDevil.swift in Sources */,
+				1B21A6041C42A9D5008AD566 /* Grouch.swift in Sources */,
 				1B21A5EE1C429D77008AD566 /* ViewController.swift in Sources */,
 				1B21A5EC1C429D77008AD566 /* AppDelegate.swift in Sources */,
 			);
